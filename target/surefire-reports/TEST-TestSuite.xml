@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.235" tests="12" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\complete_Drive\complete Cucumber Practies\CucumberDemo\TutorialsNinja\target\test-classes;E:\complete_Drive\complete Cucumber Practies\CucumberDemo\TutorialsNinja\target\classes;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\user\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire3874695516598539326\surefirebooter-20231014162546414_3.jar C:\Users\user\AppData\Local\Temp\surefire3874695516598539326 2023-10-14T16-25-46_149-jvmRun1 surefire-20231014162546414_1tmp surefire_0-20231014162546414_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\complete_Drive\complete Cucumber Practies\CucumberDemo\TutorialsNinja\target\test-classes;E:\complete_Drive\complete Cucumber Practies\CucumberDemo\TutorialsNinja\target\classes;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\user\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-09-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\complete_Drive\complete Cucumber Practies\CucumberDemo\TutorialsNinja"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire3874695516598539326\surefirebooter-20231014162546414_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19+36-2238"/>
+    <property name="user.name" value="user"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="19"/>
+    <property name="user.dir" value="E:\complete_Drive\complete Cucumber Practies\CucumberDemo\TutorialsNinja"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;C:\apache-maven-3.9.2\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19+36-2238"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;new user Registration&quot;, &quot;Registration by using  data table&quot;](1)" classname="runner.Test_Data_table_Registartion_Runner" time="0.231">
+    <system-out><![CDATA[
+@DDTwithfileds @ignore
+Scenario: new user Registration                      &amp#27;[90m# src/test/resources/features/Data_table_regression.feature:21&amp#27;[0m
+-----startexecution-----new user Registration
+-----Browser got launched-----
+-----Application URL opend-----
+Fn is_subash
+Ln is_chnadra Bose
+email is_abc@gmail.com
+phone is_1234567890
+pwd is_12245
+pwd confirm is_12235
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter the below data into the fields&amp#27;[0m     &amp#27;[90m# stepdefinitions.Table_Registration.user_enter_the_below_data_into_the_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName        | subash        |
+    | lastName         | chnadra Bose  |
+    | email address    | abc@gmail.com |
+    | telephone        | 1234567890    |
+    | password         | 12245         |
+    | password confirm | 12235         |
+&$@ user clicks the yes button &$@
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks the newsettlers yes button&amp#27;[0m         &amp#27;[90m# stepdefinitions.Table_Registration.user_clicks_the_newsettlers_yes_button()&amp#27;[0m
+&$@ user clicks the privacy policy check box &$@
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks the privacy policy check box filed&amp#27;[0m &amp#27;[90m# stepdefinitions.Table_Registration.user_clicks_the_privacy_policy_check_box_filed()&amp#27;[0m
+&$@ user clicks the continue button &$@
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks the continu button&amp#27;[0m                 &amp#27;[90m# stepdefinitions.Table_Registration.user_clicks_the_continu_button()&amp#27;[0m
+&$@ user succesfully registred account &$@
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be succesfully registred&amp#27;[0m          &amp#27;[90m# stepdefinitions.Table_Registration.user_should_be_succesfully_registred()&amp#27;[0m
+----Application URL closed-----new user Registration
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user login to the application for access account with valid credentials&quot;, &quot;login functionality&quot;](2)" classname="runner.Test_Data_table_Registartion_Runner" time="0.044">
+    <system-out><![CDATA[
+@all @all @Regression @smoke @dev
+Scenario: user login to the application for access account with valid credentials &amp#27;[90m# src/test/resources/features/Login.feature:9&amp#27;[0m
+-----startexecution-----user login to the application for access account with valid credentials
+-----Browser got launched-----
+-----Application URL opend-----
+%%%%%user naviagtes to the login page succesfully%%%%
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to the login page&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.Login.user_navigate_to_the_login_page()&amp#27;[0m
+user clicks on the logging button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                             &amp#27;[90m# stepdefinitions.Login.user_clicks_on_the_login_button()&amp#27;[0m
+email addresssubbu1234@gmail.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters the email as &amp#27;[0m&amp#27;[32m&amp#27;[1m"subbu1234@gmail.com"&amp#27;[0m&amp#27;[32m to the email field&amp#27;[0m          &amp#27;[90m# stepdefinitions.Login.user_enters_the_email_as_to_the_email_field(java.lang.String)&amp#27;[0m
+password 1234
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the password  as &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234"&amp#27;[0m&amp#27;[32m to the password field&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Login.user_enters_the_password_to_the_password_field(java.lang.String)&amp#27;[0m
+%%%%% user succesfully logged account%%%%
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be succesfully logged&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.Login.user_should_be_succesfully_logged()&amp#27;[0m
+----Application URL closed-----user login to the application for access account with valid credentials
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;user login to the application with invalid credentials&quot;, &quot;login functionality&quot;](3)" classname="runner.Test_Data_table_Registartion_Runner" time="0.041">
+    <system-out><![CDATA[
+@all @Regression @smoke @ignore
+Scenario: user login to the application with invalid credentials         &amp#27;[90m# src/test/resources/features/Login.feature:17&amp#27;[0m
+-----startexecution-----user login to the application with invalid credentials
+-----Browser got launched-----
+-----Application URL opend-----
+%%%%%user naviagtes to the login page succesfully%%%%
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to the login page&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.Login.user_navigate_to_the_login_page()&amp#27;[0m
+user clicks on the logging button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.Login.user_clicks_on_the_login_button()&amp#27;[0m
+user entered ivalid emailsubba@gmail.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters invalid email as &amp#27;[0m&amp#27;[32m&amp#27;[1m"subba@gmail.com"&amp#27;[0m&amp#27;[32m to the email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_email_as_to_the_email_field(java.lang.String)&amp#27;[0m
+user enetered invalid pwd123456
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters invalid password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m&amp#27;[32m to the password field&amp#27;[0m     &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_password_as_to_the_password_field(java.lang.String)&amp#27;[0m
+user able to see warning message succesfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be able to see warnning mesage successfully&amp#27;[0m           &amp#27;[90m# stepdefinitions.Login.user_should_be_able_to_see_warnning_mesage_successfully()&amp#27;[0m
+----Application URL closed-----user login to the application with invalid credentials
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;user login to the application with invalid email and valid password&quot;, &quot;login functionality&quot;](4)" classname="runner.Test_Data_table_Registartion_Runner" time="0.057">
+    <system-out><![CDATA[
+@all @all @Regression @wip
+Scenario: user login to the application with invalid email and valid password &amp#27;[90m# src/test/resources/features/Login.feature:25&amp#27;[0m
+-----startexecution-----user login to the application with invalid email and valid password
+-----Browser got launched-----
+-----Application URL opend-----
+%%%%%user naviagtes to the login page succesfully%%%%
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to the login page&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.Login.user_navigate_to_the_login_page()&amp#27;[0m
+user clicks on the logging button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.Login.user_clicks_on_the_login_button()&amp#27;[0m
+user entered ivalid emailsubba@gmail.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters invalid email as &amp#27;[0m&amp#27;[32m&amp#27;[1m"subba@gmail.com"&amp#27;[0m&amp#27;[32m to the email field&amp#27;[0m      &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_email_as_to_the_email_field(java.lang.String)&amp#27;[0m
+password 1234
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the password  as &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234"&amp#27;[0m&amp#27;[32m to the password field&amp#27;[0m               &amp#27;[90m# stepdefinitions.Login.user_enters_the_password_to_the_password_field(java.lang.String)&amp#27;[0m
+user able to see warning message succesfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be able to see warnning mesage successfully&amp#27;[0m                &amp#27;[90m# stepdefinitions.Login.user_should_be_able_to_see_warnning_mesage_successfully()&amp#27;[0m
+----Application URL closed-----user login to the application with invalid email and valid password
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;user login to the application with valid email and invalid password&quot;, &quot;login functionality&quot;](5)" classname="runner.Test_Data_table_Registartion_Runner" time="0.048">
+    <system-out><![CDATA[
+@all @smoke @wip
+Scenario: user login to the application with valid email and invalid password &amp#27;[90m# src/test/resources/features/Login.feature:33&amp#27;[0m
+-----startexecution-----user login to the application with valid email and invalid password
+-----Browser got launched-----
+-----Application URL opend-----
+%%%%%user naviagtes to the login page succesfully%%%%
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to the login page&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.Login.user_navigate_to_the_login_page()&amp#27;[0m
+user clicks on the logging button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.Login.user_clicks_on_the_login_button()&amp#27;[0m
+user entered ivalid emailsubbu1234@gmail.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters invalid email as &amp#27;[0m&amp#27;[32m&amp#27;[1m"subbu1234@gmail.com"&amp#27;[0m&amp#27;[32m to the email field&amp#27;[0m  &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_email_as_to_the_email_field(java.lang.String)&amp#27;[0m
+password 12343456
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the password  as &amp#27;[0m&amp#27;[32m&amp#27;[1m"12343456"&amp#27;[0m&amp#27;[32m to the password field&amp#27;[0m           &amp#27;[90m# stepdefinitions.Login.user_enters_the_password_to_the_password_field(java.lang.String)&amp#27;[0m
+user able to see warning message succesfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be able to see warnning mesage successfully&amp#27;[0m                &amp#27;[90m# stepdefinitions.Login.user_should_be_able_to_see_warnning_mesage_successfully()&amp#27;[0m
+----Application URL closed-----user login to the application with valid email and invalid password
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;user login to the application without enters the credentials&quot;, &quot;login functionality&quot;](6)" classname="runner.Test_Data_table_Registartion_Runner" time="0.04">
+    <system-out><![CDATA[
+@all @Regression @ignore
+Scenario: user login to the application without enters the credentials &amp#27;[90m# src/test/resources/features/Login.feature:41&amp#27;[0m
+-----startexecution-----user login to the application without enters the credentials
+-----Browser got launched-----
+-----Application URL opend-----
+%%%%%user naviagtes to the login page succesfully%%%%
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to the login page&amp#27;[0m                                &amp#27;[90m# stepdefinitions.Login.user_navigate_to_the_login_page()&amp#27;[0m
+user clicks on the logging button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.Login.user_clicks_on_the_login_button()&amp#27;[0m
+user trying to logging without entering the credentials
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser not enters the email id and password into the fields&amp#27;[0m       &amp#27;[90m# stepdefinitions.Login.user_not_enters_the_email_id_and_password_into_the_fields()&amp#27;[0m
+user able to see warning message succesfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be able to see warnning mesage successfully&amp#27;[0m         &amp#27;[90m# stepdefinitions.Login.user_should_be_able_to_see_warnning_mesage_successfully()&amp#27;[0m
+----Application URL closed-----user login to the application without enters the credentials
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;user logged successfully when enters the invalid credentials&quot;, &quot;login functionality&quot;](7)" classname="runner.Test_Data_table_Registartion_Runner" time="0.026">
+    <system-out><![CDATA[
+@all @smoke @dev
+Scenario: user logged successfully when enters the invalid credentials   &amp#27;[90m# src/test/resources/features/Login.feature:48&amp#27;[0m
+-----startexecution-----user logged successfully when enters the invalid credentials
+-----Browser got launched-----
+-----Application URL opend-----
+%%%%%user naviagtes to the login page succesfully%%%%
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to the login page&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.Login.user_navigate_to_the_login_page()&amp#27;[0m
+user clicks on the logging button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.Login.user_clicks_on_the_login_button()&amp#27;[0m
+user entered ivalid emailsubba@gmail.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters invalid email as &amp#27;[0m&amp#27;[32m&amp#27;[1m"subba@gmail.com"&amp#27;[0m&amp#27;[32m to the email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_email_as_to_the_email_field(java.lang.String)&amp#27;[0m
+user enetered invalid pwd123456
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters invalid password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m&amp#27;[32m to the password field&amp#27;[0m     &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_password_as_to_the_password_field(java.lang.String)&amp#27;[0m
+user able to see warning message succesfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be able to see warnning mesage successfully&amp#27;[0m           &amp#27;[90m# stepdefinitions.Login.user_should_be_able_to_see_warnning_mesage_successfully()&amp#27;[0m
+user able to see logged message without  provideng valid credentials
+  &amp#27;[32mBut &amp#27;[0m&amp#27;[32muser should be able to see succsfully logged message&amp#27;[0m               &amp#27;[90m# stepdefinitions.Login.user_should_be_able_to_see_succsfully_logged_message()&amp#27;[0m
+----Application URL closed-----user logged successfully when enters the invalid credentials
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;user logging with valid credentials&quot;, &quot;login functionality&quot;](8)" classname="runner.Test_Data_table_Registartion_Runner" time="0.029">
+    <system-out><![CDATA[
+@smoke @wip
+Scenario Outline: user logging with valid credentials &amp#27;[90m# src/test/resources/features/Login_DDT.feature:16&amp#27;[0m
+-----startexecution-----user logging with valid credentials
+-----Browser got launched-----
+-----Application URL opend-----
+%%%%%user naviagtes to the login page succesfully%%%%
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to the login page&amp#27;[0m               &amp#27;[90m# stepdefinitions.Login.user_navigate_to_the_login_page()&amp#27;[0m
+user entered email abc@gmail.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mi enter the email address &amp#27;[0m&amp#27;[32m&amp#27;[1mabc@gmail.com&amp#27;[0m        &amp#27;[90m# stepdefinitions.Login_DDT.i_enter_the_email_to_the_email_field(java.lang.String)&amp#27;[0m
+user enter thepassword to the password  field<password>
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi enter the password &amp#27;[0m&amp#27;[32m&amp#27;[1m<password>&amp#27;[0m                 &amp#27;[90m# stepdefinitions.Login_DDT.i_enter_the_pwd_to_the_pwd_field(java.lang.String)&amp#27;[0m
+user clicks the login button succesufully
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi click on  the login  button&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Login_DDT.i_click_on_the_login_button()&amp#27;[0m
+iam able to login succesfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mi should be able to logged succesfully .&amp#27;[0m       &amp#27;[90m# stepdefinitions.Login_DDT.i_should_be_able_to_logged_succesfully()&amp#27;[0m
+----Application URL closed-----user logging with valid credentials
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;user logging with valid credentials&quot;, &quot;login functionality&quot;](9)" classname="runner.Test_Data_table_Registartion_Runner" time="0.034">
+    <system-out><![CDATA[
+@smoke @wip
+Scenario Outline: user logging with valid credentials &amp#27;[90m# src/test/resources/features/Login_DDT.feature:17&amp#27;[0m
+-----startexecution-----user logging with valid credentials
+-----Browser got launched-----
+-----Application URL opend-----
+%%%%%user naviagtes to the login page succesfully%%%%
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to the login page&amp#27;[0m               &amp#27;[90m# stepdefinitions.Login.user_navigate_to_the_login_page()&amp#27;[0m
+user entered email xyz@gmail.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mi enter the email address &amp#27;[0m&amp#27;[32m&amp#27;[1mxyz@gmail.com&amp#27;[0m        &amp#27;[90m# stepdefinitions.Login_DDT.i_enter_the_email_to_the_email_field(java.lang.String)&amp#27;[0m
+user enter thepassword to the password  field<password>
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi enter the password &amp#27;[0m&amp#27;[32m&amp#27;[1m<password>&amp#27;[0m                 &amp#27;[90m# stepdefinitions.Login_DDT.i_enter_the_pwd_to_the_pwd_field(java.lang.String)&amp#27;[0m
+user clicks the login button succesufully
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi click on  the login  button&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Login_DDT.i_click_on_the_login_button()&amp#27;[0m
+iam able to login succesfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mi should be able to logged succesfully .&amp#27;[0m       &amp#27;[90m# stepdefinitions.Login_DDT.i_should_be_able_to_logged_succesfully()&amp#27;[0m
+----Application URL closed-----user logging with valid credentials
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;user logging with valid credentials&quot;, &quot;login functionality&quot;](10)" classname="runner.Test_Data_table_Registartion_Runner" time="0.09">
+    <system-out><![CDATA[
+@smoke @wip
+Scenario Outline: user logging with valid credentials &amp#27;[90m# src/test/resources/features/Login_DDT.feature:18&amp#27;[0m
+-----startexecution-----user logging with valid credentials
+-----Browser got launched-----
+-----Application URL opend-----
+%%%%%user naviagtes to the login page succesfully%%%%
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to the login page&amp#27;[0m               &amp#27;[90m# stepdefinitions.Login.user_navigate_to_the_login_page()&amp#27;[0m
+user entered email pqr@gmail.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mi enter the email address &amp#27;[0m&amp#27;[32m&amp#27;[1mpqr@gmail.com&amp#27;[0m        &amp#27;[90m# stepdefinitions.Login_DDT.i_enter_the_email_to_the_email_field(java.lang.String)&amp#27;[0m
+user enter thepassword to the password  field<password>
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi enter the password &amp#27;[0m&amp#27;[32m&amp#27;[1m<password>&amp#27;[0m                 &amp#27;[90m# stepdefinitions.Login_DDT.i_enter_the_pwd_to_the_pwd_field(java.lang.String)&amp#27;[0m
+user clicks the login button succesufully
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi click on  the login  button&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Login_DDT.i_click_on_the_login_button()&amp#27;[0m
+iam able to login succesfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mi should be able to logged succesfully .&amp#27;[0m       &amp#27;[90m# stepdefinitions.Login_DDT.i_should_be_able_to_logged_succesfully()&amp#27;[0m
+----Application URL closed-----user logging with valid credentials
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;new user registering with mandotory fileds&quot;, &quot;Registartion functionality&quot;](11)" classname="runner.Test_Data_table_Registartion_Runner" time="0.038">
+    <system-out><![CDATA[
+@Regression
+Scenario: new user registering with mandotory fileds              &amp#27;[90m# src/test/resources/features/Registartion.feature:7&amp#27;[0m
+-----startexecution-----new user registering with mandotory fileds
+-----Browser got launched-----
+-----Application URL opend-----
+user navigates register page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to the registering page&amp#27;[0m                    &amp#27;[90m# stepdefinitions.Registration.user_navigates_to_the_registering_page()&amp#27;[0m
+>>>user enters the FN>>>subash
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mi enter firstName as &amp#27;[0m&amp#27;[32m&amp#27;[1m"subash"&amp#27;[0m&amp#27;[32m into FN field&amp#27;[0m                &amp#27;[90m# stepdefinitions.Registration.i_enter_firstName_into_FN_field(java.lang.String)&amp#27;[0m
+>>>user enters the LN>>>chandra Bose
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi enter LastName as &amp#27;[0m&amp#27;[32m&amp#27;[1m"chandra Bose"&amp#27;[0m&amp#27;[32m into LN field&amp#27;[0m            &amp#27;[90m# stepdefinitions.Registration.i_enter_last_name_as_into_ln_field(java.lang.String)&amp#27;[0m
+>>>user enters the emailaddress>>>subash@gmail.com
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi enter emailaddress as &amp#27;[0m&amp#27;[32m&amp#27;[1m"subash@gmail.com"&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Registration.i_enter_emailaddress_as_into_email_field(java.lang.String)&amp#27;[0m
+>>>user enters the phoneNumber>>>1234567890
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi enter phone number as &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234567890"&amp#27;[0m&amp#27;[32m into phone field&amp#27;[0m       &amp#27;[90m# stepdefinitions.Registration.i_enter_phone_number_as_into_phone_field(java.lang.String)&amp#27;[0m
+user enter thepassword to the password  field"12345" into password field
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi enter the password &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345" into password field&amp#27;[0m            &amp#27;[90m# stepdefinitions.Login_DDT.i_enter_the_pwd_to_the_pwd_field(java.lang.String)&amp#27;[0m
+user enter thepassword to the password  field"12345" into confirm password field
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi enter the password &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345" into confirm password field&amp#27;[0m    &amp#27;[90m# stepdefinitions.Login_DDT.i_enter_the_pwd_to_the_pwd_field(java.lang.String)&amp#27;[0m
+>>>user click on privacy checkbox>>>
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi click on checkbox for privacy policy field&amp#27;[0m                &amp#27;[90m# stepdefinitions.Registration.i_click_on_checkbox_for_privacy_policy_field()&amp#27;[0m
+>>>user click on continue buuton>>>
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi click on continue button&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.Registration.i_click_on_continue_button()&amp#27;[0m
+>>>new  user successfully registred
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mi should be able to registartion  successfully .&amp#27;[0m           &amp#27;[90m# stepdefinitions.Registration.i_should_be_able_to_registartion_successfully()&amp#27;[0m
+----Application URL closed-----new user registering with mandotory fileds
+-----Browser got closed-----
+----execution end-----
+]]></system-out>
+  </testcase>
+  <testcase name="tearDownClass" classname="runner.Test_Data_table_Registartion_Runner" time="1.96">
+    <failure message="java.io.IOException: HTTP request failed:&#10;&gt; GET https://messages.cucumber.io/api/reports&#10;&lt; HTTP/1.1 401 Unauthorized&#10;&lt; X-Cache: Error from cloudfront&#10;&lt; x-amz-apigw-id: MycElEgICGYFe5g=&#10;&lt; Access-Control-Allow-Origin: https://reports.cucumber.io&#10;&lt; Access-Control-Allow-Methods: GET&#10;&lt; X-Amz-Cf-Pop: BLR50-P3&#10;&lt; Connection: keep-alive&#10;&lt; Date: Sat, 14 Oct 2023 10:55:50 GMT&#10;&lt; Access-Control-Allow-Headers: Content-Type,Authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token&#10;&lt; X-Amzn-Trace-Id: Root=1-652a73b6-659a1c1358b7054c77a0940f;Sampled=0;lineage=d7df4ace:0&#10;&lt; Via: 1.1 6cbb5ab0cde2993e0fb6176991d8fd62.cloudfront.net (CloudFront)&#10;&lt; Cache-Control: private, no-cache, no-store, must-revalidate&#10;&lt; Access-Control-Allow-Credentials: true&#10;&lt; x-amzn-RequestId: fe585626-f0b8-45a9-a405-b25bd2ee754b&#10;&lt; X-Amz-Cf-Id: 8avyDMff2YTe4Tde8GphuxqW6r-gUaKhXUQMtpR7l9XsuIw43lyXCQ==&#10;&lt; Content-Length: 875&#10;&lt; Content-Type: text/plain; charset=UTF-8&#10;&amp;#27;[31m&amp;#27;[1m┌─────────────────────────────────────────────────────────────────────────────────────────────┐&amp;#27;[0m&#10;&amp;#27;[31m&amp;#27;[1m│&amp;#27;[0m Invalid CUCUMBER_PUBLISH_TOKEN: &amp;#27;[1mCUCUMBER_PUBLISH_TOKEN=54abb800-7cea-44ab-8ed4-bb72715838c0&amp;#27;[0m &amp;#27;[31m&amp;#27;[1m│&amp;#27;[0m&#10;&amp;#27;[31m&amp;#27;[1m│&amp;#27;[0m Go to &amp;#27;[1m&amp;#27;[36m&amp;#27;[4mhttps://reports.cucumber.io/profile&amp;#27;[0m to get your token.                                &amp;#27;[31m&amp;#27;[1m│&amp;#27;[0m&#10;&amp;#27;[31m&amp;#27;[1m└─────────────────────────────────────────────────────────────────────────────────────────────┘&amp;#27;[0m" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: 
+java.io.IOException: HTTP request failed:
+> GET https://messages.cucumber.io/api/reports
+< HTTP/1.1 401 Unauthorized
+< X-Cache: Error from cloudfront
+< x-amz-apigw-id: MycElEgICGYFe5g=
+< Access-Control-Allow-Origin: https://reports.cucumber.io
+< Access-Control-Allow-Methods: GET
+< X-Amz-Cf-Pop: BLR50-P3
+< Connection: keep-alive
+< Date: Sat, 14 Oct 2023 10:55:50 GMT
+< Access-Control-Allow-Headers: Content-Type,Authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token
+< X-Amzn-Trace-Id: Root=1-652a73b6-659a1c1358b7054c77a0940f;Sampled=0;lineage=d7df4ace:0
+< Via: 1.1 6cbb5ab0cde2993e0fb6176991d8fd62.cloudfront.net (CloudFront)
+< Cache-Control: private, no-cache, no-store, must-revalidate
+< Access-Control-Allow-Credentials: true
+< x-amzn-RequestId: fe585626-f0b8-45a9-a405-b25bd2ee754b
+< X-Amz-Cf-Id: 8avyDMff2YTe4Tde8GphuxqW6r-gUaKhXUQMtpR7l9XsuIw43lyXCQ==
+< Content-Length: 875
+< Content-Type: text/plain; charset=UTF-8
+&amp#27;[31m&amp#27;[1m┌─────────────────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[31m&amp#27;[1m│&amp#27;[0m Invalid CUCUMBER_PUBLISH_TOKEN: &amp#27;[1mCUCUMBER_PUBLISH_TOKEN=54abb800-7cea-44ab-8ed4-bb72715838c0&amp#27;[0m &amp#27;[31m&amp#27;[1m│&amp#27;[0m
+&amp#27;[31m&amp#27;[1m│&amp#27;[0m Go to &amp#27;[1m&amp#27;[36m&amp#27;[4mhttps://reports.cucumber.io/profile&amp#27;[0m to get your token.                                &amp#27;[31m&amp#27;[1m│&amp#27;[0m
+&amp#27;[31m&amp#27;[1m└─────────────────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+	at io.cucumber.core.plugin.MessageFormatter.writeMessage(MessageFormatter.java:32)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:125)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:105)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: HTTP request failed:
+> GET https://messages.cucumber.io/api/reports
+< HTTP/1.1 401 Unauthorized
+< X-Cache: Error from cloudfront
+< x-amz-apigw-id: MycElEgICGYFe5g=
+< Access-Control-Allow-Origin: https://reports.cucumber.io
+< Access-Control-Allow-Methods: GET
+< X-Amz-Cf-Pop: BLR50-P3
+< Connection: keep-alive
+< Date: Sat, 14 Oct 2023 10:55:50 GMT
+< Access-Control-Allow-Headers: Content-Type,Authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token
+< X-Amzn-Trace-Id: Root=1-652a73b6-659a1c1358b7054c77a0940f;Sampled=0;lineage=d7df4ace:0
+< Via: 1.1 6cbb5ab0cde2993e0fb6176991d8fd62.cloudfront.net (CloudFront)
+< Cache-Control: private, no-cache, no-store, must-revalidate
+< Access-Control-Allow-Credentials: true
+< x-amzn-RequestId: fe585626-f0b8-45a9-a405-b25bd2ee754b
+< X-Amz-Cf-Id: 8avyDMff2YTe4Tde8GphuxqW6r-gUaKhXUQMtpR7l9XsuIw43lyXCQ==
+< Content-Length: 875
+< Content-Type: text/plain; charset=UTF-8
+&amp#27;[31m&amp#27;[1m┌─────────────────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[31m&amp#27;[1m│&amp#27;[0m Invalid CUCUMBER_PUBLISH_TOKEN: &amp#27;[1mCUCUMBER_PUBLISH_TOKEN=54abb800-7cea-44ab-8ed4-bb72715838c0&amp#27;[0m &amp#27;[31m&amp#27;[1m│&amp#27;[0m
+&amp#27;[31m&amp#27;[1m│&amp#27;[0m Go to &amp#27;[1m&amp#27;[36m&amp#27;[4mhttps://reports.cucumber.io/profile&amp#27;[0m to get your token.                                &amp#27;[31m&amp#27;[1m│&amp#27;[0m
+&amp#27;[31m&amp#27;[1m└─────────────────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+	at io.cucumber.core.plugin.UrlOutputStream.createCurlLikeException(UrlOutputStream.java:150)
+	at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:135)
+	at io.cucumber.core.plugin.UrlOutputStream.sendRequest(UrlOutputStream.java:87)
+	at io.cucumber.core.plugin.UrlOutputStream.close(UrlOutputStream.java:65)
+	at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:443)
+	at java.base/sun.nio.cs.StreamEncoder.lockedClose(StreamEncoder.java:241)
+	at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:232)
+	at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:267)
+	at io.cucumber.core.plugin.MessageFormatter.writeMessage(MessageFormatter.java:29)
+	... 36 more
+]]></failure>
+  </testcase>
+</testsuite>
