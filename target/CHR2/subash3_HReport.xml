@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="1.084" tests="11" skipped="0" failures="0" errors="0">
-<testcase classname="Registration by using  data table" name="new user Registration" time="0.032">
+<testsuite name="Cucumber" time="1.019" tests="11" skipped="0" failures="0" errors="0">
+<testcase classname="Registration by using  data table" name="new user Registration" time="0.028">
 <system-out><![CDATA[
 When user enter the below data into the fields..............................passed
 And user clicks the newsettlers yes button..................................passed
@@ -9,7 +9,7 @@ And user clicks the continu button..........................................pass
 Then user should be succesfully registred...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login functionality" name="user login to the application for access account with valid credentials" time="0.017">
+<testcase classname="login functionality" name="user login to the application for access account with valid credentials" time="0.024">
 <system-out><![CDATA[
 Given user navigate to the login page.......................................passed
 And user clicks on the login button.........................................passed
@@ -18,7 +18,7 @@ And user enters the password  as "1234" to the password field...............pass
 Then user should be succesfully logged......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login functionality" name="user login to the application with invalid credentials" time="0.05">
+<testcase classname="login functionality" name="user login to the application with invalid credentials" time="0.011">
 <system-out><![CDATA[
 Given user navigate to the login page.......................................passed
 And user clicks on the login button.........................................passed
@@ -27,7 +27,7 @@ And user enters invalid password as "123456" to the password field..........pass
 Then user should be able to see warnning mesage successfully................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login functionality" name="user login to the application with invalid email and valid password" time="0.022">
+<testcase classname="login functionality" name="user login to the application with invalid email and valid password" time="0.017">
 <system-out><![CDATA[
 Given user navigate to the login page.......................................passed
 And user clicks on the login button.........................................passed
@@ -36,7 +36,7 @@ And user enters the password  as "1234" to the password field...............pass
 Then user should be able to see warnning mesage successfully................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login functionality" name="user login to the application with valid email and invalid password" time="0.015">
+<testcase classname="login functionality" name="user login to the application with valid email and invalid password" time="0.007">
 <system-out><![CDATA[
 Given user navigate to the login page.......................................passed
 And user clicks on the login button.........................................passed
@@ -45,7 +45,7 @@ And user enters the password  as "12343456" to the password field...........pass
 Then user should be able to see warnning mesage successfully................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login functionality" name="user login to the application without enters the credentials" time="0.042">
+<testcase classname="login functionality" name="user login to the application without enters the credentials" time="0.006">
 <system-out><![CDATA[
 Given user navigate to the login page.......................................passed
 And user clicks on the login button.........................................passed
@@ -53,7 +53,7 @@ When user not enters the email id and password into the fields..............pass
 Then user should be able to see warnning mesage successfully................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login functionality" name="user logged successfully when enters the invalid credentials" time="0.007">
+<testcase classname="login functionality" name="user logged successfully when enters the invalid credentials" time="0.013">
 <system-out><![CDATA[
 Given user navigate to the login page.......................................passed
 And user clicks on the login button.........................................passed
@@ -63,7 +63,7 @@ Then user should be able to see warnning mesage successfully................pass
 But user should be able to see succsfully logged message....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login functionality" name="user logging with valid credentials - Example #1.1" time="0.009">
+<testcase classname="login functionality" name="user logging with valid credentials - Example #1.1" time="0.008">
 <system-out><![CDATA[
 Given user navigate to the login page.......................................passed
 When i enter the email address abc@gmail.com................................passed
@@ -72,7 +72,7 @@ And i click on  the login  button...........................................pass
 Then i should be able to logged succesfully ................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login functionality" name="user logging with valid credentials - Example #1.2" time="0.006">
+<testcase classname="login functionality" name="user logging with valid credentials - Example #1.2" time="0.004">
 <system-out><![CDATA[
 Given user navigate to the login page.......................................passed
 When i enter the email address xyz@gmail.com................................passed
@@ -81,7 +81,7 @@ And i click on  the login  button...........................................pass
 Then i should be able to logged succesfully ................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login functionality" name="user logging with valid credentials - Example #1.3" time="0.014">
+<testcase classname="login functionality" name="user logging with valid credentials - Example #1.3" time="0.007">
 <system-out><![CDATA[
 Given user navigate to the login page.......................................passed
 When i enter the email address pqr@gmail.com................................passed
@@ -90,7 +90,7 @@ And i click on  the login  button...........................................pass
 Then i should be able to logged succesfully ................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Registartion functionality" name="new user registering with mandotory fileds" time="0.016">
+<testcase classname="Registartion functionality" name="new user registering with mandotory fileds" time="0.017">
 <system-out><![CDATA[
 Given user navigates to the registering page................................passed
 When i enter firstName as "subash" into FN field............................passed
