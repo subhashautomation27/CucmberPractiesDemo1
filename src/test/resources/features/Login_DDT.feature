@@ -3,7 +3,7 @@ Feature: login functionality
 
 Here we are perform DDT in cucumber ,  for login functionality 
 
-@smoke @wip @Demo123
+@smoke @wip 
 Scenario Outline: user logging with valid credentials
 Given user navigate to the login page
 When i enter the email address <email>
