@@ -5,7 +5,7 @@ user login to the application with valid credentials
 Background: 
 Given user navigate to the login page
 And user clicks on the login button
- @all @Regression @smoke @dev @joshith
+ @all @Regression @smoke @dev 
 Scenario: user login to the application for access account with valid credentials
 
 When  user enters the email as "subbu1234@gmail.com" to the email field
