@@ -3,7 +3,7 @@ Feature: Registartion functionality
 
 new user registering the account with mandatory fields
 
-@Regression 
+@Regression @smoke @sanity
 Scenario: new user registering with mandotory fileds 
 Given user navigates to the registering page
 When i enter firstName as "subash" into FN field
