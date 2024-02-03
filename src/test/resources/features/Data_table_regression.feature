@@ -17,7 +17,7 @@ Background: Given user navigate to the register page
 #Then user should be succesfully registred 
 
  
-@DDTwithfileds @ignore
+@DDTwithfileds @ignore @all
 Scenario: new user Registration
 When user enter the below data into the fields
 
